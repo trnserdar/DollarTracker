@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FEED0A425BC5E41009D2E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0A325BC5E41009D2E4E /* AppDelegate.swift */; };
+		4FEED0A625BC5E41009D2E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0A525BC5E41009D2E4E /* ViewController.swift */; };
+		4FEED0A825BC5E43009D2E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEED0A725BC5E43009D2E4E /* Assets.xcassets */; };
+		4FEED0AB25BC5E43009D2E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEED0A925BC5E43009D2E4E /* Main.storyboard */; };
+		4FEED0B725BC5E43009D2E4E /* DollarTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0B625BC5E43009D2E4E /* DollarTrackerTests.swift */; };
+		4FEED0C225BC5E43009D2E4E /* DollarTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0C125BC5E43009D2E4E /* DollarTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FEED0B325BC5E43009D2E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FEED09825BC5E41009D2E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FEED09F25BC5E41009D2E4E;
+			remoteInfo = DollarTracker;
+		};
+		4FEED0BE25BC5E43009D2E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FEED09825BC5E41009D2E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FEED09F25BC5E41009D2E4E;
+			remoteInfo = DollarTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FEED0A025BC5E41009D2E4E /* DollarTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEED0A325BC5E41009D2E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FEED0A525BC5E41009D2E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FEED0A725BC5E43009D2E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FEED0AA25BC5E43009D2E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FEED0AC25BC5E43009D2E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEED0AD25BC5E43009D2E4E /* DollarTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DollarTracker.entitlements; sourceTree = "<group>"; };
+		4FEED0B225BC5E43009D2E4E /* DollarTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEED0B625BC5E43009D2E4E /* DollarTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarTrackerTests.swift; sourceTree = "<group>"; };
+		4FEED0B825BC5E43009D2E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEED0BD25BC5E43009D2E4E /* DollarTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEED0C125BC5E43009D2E4E /* DollarTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarTrackerUITests.swift; sourceTree = "<group>"; };
+		4FEED0C325BC5E43009D2E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FEED09D25BC5E41009D2E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEED0AF25BC5E43009D2E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEED0BA25BC5E43009D2E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FEED09725BC5E41009D2E4E = {
+			isa = PBXGroup;
+			children = (
+				4FEED0A225BC5E41009D2E4E /* DollarTracker */,
+				4FEED0B525BC5E43009D2E4E /* DollarTrackerTests */,
+				4FEED0C025BC5E43009D2E4E /* DollarTrackerUITests */,
+				4FEED0A125BC5E41009D2E4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FEED0A125BC5E41009D2E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0A025BC5E41009D2E4E /* DollarTracker.app */,
+				4FEED0B225BC5E43009D2E4E /* DollarTrackerTests.xctest */,
+				4FEED0BD25BC5E43009D2E4E /* DollarTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEED0A225BC5E41009D2E4E /* DollarTracker */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0A325BC5E41009D2E4E /* AppDelegate.swift */,
+				4FEED0A525BC5E41009D2E4E /* ViewController.swift */,
+				4FEED0A725BC5E43009D2E4E /* Assets.xcassets */,
+				4FEED0A925BC5E43009D2E4E /* Main.storyboard */,
+				4FEED0AC25BC5E43009D2E4E /* Info.plist */,
+				4FEED0AD25BC5E43009D2E4E /* DollarTracker.entitlements */,
+			);
+			path = DollarTracker;
+			sourceTree = "<group>";
+		};
+		4FEED0B525BC5E43009D2E4E /* DollarTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0B625BC5E43009D2E4E /* DollarTrackerTests.swift */,
+				4FEED0B825BC5E43009D2E4E /* Info.plist */,
+			);
+			path = DollarTrackerTests;
+			sourceTree = "<group>";
+		};
+		4FEED0C025BC5E43009D2E4E /* DollarTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0C125BC5E43009D2E4E /* DollarTrackerUITests.swift */,
+				4FEED0C325BC5E43009D2E4E /* Info.plist */,
+			);
+			path = DollarTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FEED09F25BC5E41009D2E4E /* DollarTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEED0C625BC5E43009D2E4E /* Build configuration list for PBXNativeTarget "DollarTracker" */;
+			buildPhases = (
+				4FEED09C25BC5E41009D2E4E /* Sources */,
+				4FEED09D25BC5E41009D2E4E /* Frameworks */,
+				4FEED09E25BC5E41009D2E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DollarTracker;
+			productName = DollarTracker;
+			productReference = 4FEED0A025BC5E41009D2E4E /* DollarTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FEED0B125BC5E43009D2E4E /* DollarTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEED0C925BC5E43009D2E4E /* Build configuration list for PBXNativeTarget "DollarTrackerTests" */;
+			buildPhases = (
+				4FEED0AE25BC5E43009D2E4E /* Sources */,
+				4FEED0AF25BC5E43009D2E4E /* Frameworks */,
+				4FEED0B025BC5E43009D2E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEED0B425BC5E43009D2E4E /* PBXTargetDependency */,
+			);
+			name = DollarTrackerTests;
+			productName = DollarTrackerTests;
+			productReference = 4FEED0B225BC5E43009D2E4E /* DollarTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FEED0BC25BC5E43009D2E4E /* DollarTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEED0CC25BC5E43009D2E4E /* Build configuration list for PBXNativeTarget "DollarTrackerUITests" */;
+			buildPhases = (
+				4FEED0B925BC5E43009D2E4E /* Sources */,
+				4FEED0BA25BC5E43009D2E4E /* Frameworks */,
+				4FEED0BB25BC5E43009D2E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEED0BF25BC5E43009D2E4E /* PBXTargetDependency */,
+			);
+			name = DollarTrackerUITests;
+			productName = DollarTrackerUITests;
+			productReference = 4FEED0BD25BC5E43009D2E4E /* DollarTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FEED09825BC5E41009D2E4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4FEED09F25BC5E41009D2E4E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4FEED0B125BC5E43009D2E4E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4FEED09F25BC5E41009D2E4E;
+					};
+					4FEED0BC25BC5E43009D2E4E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4FEED09F25BC5E41009D2E4E;
+					};
+				};
+			};
+			buildConfigurationList = 4FEED09B25BC5E41009D2E4E /* Build configuration list for PBXProject "DollarTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FEED09725BC5E41009D2E4E;
+			productRefGroup = 4FEED0A125BC5E41009D2E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FEED09F25BC5E41009D2E4E /* DollarTracker */,
+				4FEED0B125BC5E43009D2E4E /* DollarTrackerTests */,
+				4FEED0BC25BC5E43009D2E4E /* DollarTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FEED09E25BC5E41009D2E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEED0A825BC5E43009D2E4E /* Assets.xcassets in Resources */,
+				4FEED0AB25BC5E43009D2E4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEED0B025BC5E43009D2E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEED0BB25BC5E43009D2E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FEED09C25BC5E41009D2E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEED0A625BC5E41009D2E4E /* ViewController.swift in Sources */,
+				4FEED0A425BC5E41009D2E4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEED0AE25BC5E43009D2E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEED0B725BC5E43009D2E4E /* DollarTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEED0B925BC5E43009D2E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEED0C225BC5E43009D2E4E /* DollarTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FEED0B425BC5E43009D2E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FEED09F25BC5E41009D2E4E /* DollarTracker */;
+			targetProxy = 4FEED0B325BC5E43009D2E4E /* PBXContainerItemProxy */;
+		};
+		4FEED0BF25BC5E43009D2E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FEED09F25BC5E41009D2E4E /* DollarTracker */;
+			targetProxy = 4FEED0BE25BC5E43009D2E4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FEED0A925BC5E43009D2E4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEED0AA25BC5E43009D2E4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FEED0C425BC5E43009D2E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FEED0C525BC5E43009D2E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4FEED0C725BC5E43009D2E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DollarTracker/DollarTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DollarTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = serdarturan.DollarTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4FEED0C825BC5E43009D2E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DollarTracker/DollarTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DollarTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = serdarturan.DollarTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4FEED0CA25BC5E43009D2E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
+				INFOPLIST_FILE = DollarTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = serdarturan.DollarTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DollarTracker.app/Contents/MacOS/DollarTracker";
+			};
+			name = Debug;
+		};
+		4FEED0CB25BC5E43009D2E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
+				INFOPLIST_FILE = DollarTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = serdarturan.DollarTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DollarTracker.app/Contents/MacOS/DollarTracker";
+			};
+			name = Release;
+		};
+		4FEED0CD25BC5E43009D2E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
+				INFOPLIST_FILE = DollarTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = serdarturan.DollarTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DollarTracker;
+			};
+			name = Debug;
+		};
+		4FEED0CE25BC5E43009D2E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
+				INFOPLIST_FILE = DollarTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = serdarturan.DollarTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DollarTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FEED09B25BC5E41009D2E4E /* Build configuration list for PBXProject "DollarTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEED0C425BC5E43009D2E4E /* Debug */,
+				4FEED0C525BC5E43009D2E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEED0C625BC5E43009D2E4E /* Build configuration list for PBXNativeTarget "DollarTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEED0C725BC5E43009D2E4E /* Debug */,
+				4FEED0C825BC5E43009D2E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEED0C925BC5E43009D2E4E /* Build configuration list for PBXNativeTarget "DollarTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEED0CA25BC5E43009D2E4E /* Debug */,
+				4FEED0CB25BC5E43009D2E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEED0CC25BC5E43009D2E4E /* Build configuration list for PBXNativeTarget "DollarTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEED0CD25BC5E43009D2E4E /* Debug */,
+				4FEED0CE25BC5E43009D2E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FEED09825BC5E41009D2E4E /* Project object */;
+}
