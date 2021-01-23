@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4FEED0A425BC5E41009D2E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0A325BC5E41009D2E4E /* AppDelegate.swift */; };
-		4FEED0A625BC5E41009D2E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0A525BC5E41009D2E4E /* ViewController.swift */; };
 		4FEED0A825BC5E43009D2E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEED0A725BC5E43009D2E4E /* Assets.xcassets */; };
 		4FEED0AB25BC5E43009D2E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEED0A925BC5E43009D2E4E /* Main.storyboard */; };
-		4FEED0B725BC5E43009D2E4E /* DollarTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0B625BC5E43009D2E4E /* DollarTrackerTests.swift */; };
 		4FEED0C225BC5E43009D2E4E /* DollarTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0C125BC5E43009D2E4E /* DollarTrackerUITests.swift */; };
+		4FEED0ED25BC653B009D2E4E /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0EC25BC653B009D2E4E /* AppDelegateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +34,16 @@
 /* Begin PBXFileReference section */
 		4FEED0A025BC5E41009D2E4E /* DollarTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEED0A325BC5E41009D2E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FEED0A525BC5E41009D2E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FEED0A725BC5E43009D2E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FEED0AA25BC5E43009D2E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FEED0AC25BC5E43009D2E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FEED0AD25BC5E43009D2E4E /* DollarTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DollarTracker.entitlements; sourceTree = "<group>"; };
 		4FEED0B225BC5E43009D2E4E /* DollarTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FEED0B625BC5E43009D2E4E /* DollarTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarTrackerTests.swift; sourceTree = "<group>"; };
 		4FEED0B825BC5E43009D2E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FEED0BD25BC5E43009D2E4E /* DollarTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEED0C125BC5E43009D2E4E /* DollarTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarTrackerUITests.swift; sourceTree = "<group>"; };
 		4FEED0C325BC5E43009D2E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEED0EC25BC653B009D2E4E /* AppDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +94,10 @@
 		4FEED0A225BC5E41009D2E4E /* DollarTracker */ = {
 			isa = PBXGroup;
 			children = (
-				4FEED0A325BC5E41009D2E4E /* AppDelegate.swift */,
-				4FEED0A525BC5E41009D2E4E /* ViewController.swift */,
-				4FEED0A725BC5E43009D2E4E /* Assets.xcassets */,
-				4FEED0A925BC5E43009D2E4E /* Main.storyboard */,
-				4FEED0AC25BC5E43009D2E4E /* Info.plist */,
-				4FEED0AD25BC5E43009D2E4E /* DollarTracker.entitlements */,
+				4FEED0D225BC5FC4009D2E4E /* App */,
+				4FEED0D325BC5FCC009D2E4E /* Controllers */,
+				4FEED0D725BC5FE6009D2E4E /* SupportingFiles */,
+				4FEED0D825BC5FF4009D2E4E /* Views */,
 			);
 			path = DollarTracker;
 			sourceTree = "<group>";
@@ -109,7 +105,9 @@
 		4FEED0B525BC5E43009D2E4E /* DollarTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				4FEED0B625BC5E43009D2E4E /* DollarTrackerTests.swift */,
+				4FEED0E225BC605B009D2E4E /* Cases */,
+				4FEED0E525BC608A009D2E4E /* Fakes */,
+				4FEED0E325BC6064009D2E4E /* Mocks */,
 				4FEED0B825BC5E43009D2E4E /* Info.plist */,
 			);
 			path = DollarTrackerTests;
@@ -122,6 +120,85 @@
 				4FEED0C325BC5E43009D2E4E /* Info.plist */,
 			);
 			path = DollarTrackerUITests;
+			sourceTree = "<group>";
+		};
+		4FEED0D225BC5FC4009D2E4E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0A325BC5E41009D2E4E /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4FEED0D325BC5FCC009D2E4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4FEED0D725BC5FE6009D2E4E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0A725BC5E43009D2E4E /* Assets.xcassets */,
+				4FEED0AD25BC5E43009D2E4E /* DollarTracker.entitlements */,
+				4FEED0AC25BC5E43009D2E4E /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4FEED0D825BC5FF4009D2E4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0A925BC5E43009D2E4E /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FEED0E225BC605B009D2E4E /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0EB25BC6526009D2E4E /* App */,
+				4FEED0E625BC60B2009D2E4E /* Controllers */,
+				4FEED0E725BC60BC009D2E4E /* SupportingFiles */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		4FEED0E325BC6064009D2E4E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		4FEED0E525BC608A009D2E4E /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fakes;
+			sourceTree = "<group>";
+		};
+		4FEED0E625BC60B2009D2E4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4FEED0E725BC60BC009D2E4E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4FEED0EB25BC6526009D2E4E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0EC25BC653B009D2E4E /* AppDelegateTests.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +271,7 @@
 					};
 					4FEED0B125BC5E43009D2E4E = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 						TestTargetID = 4FEED09F25BC5E41009D2E4E;
 					};
 					4FEED0BC25BC5E43009D2E4E = {
@@ -253,7 +331,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FEED0A625BC5E41009D2E4E /* ViewController.swift in Sources */,
 				4FEED0A425BC5E41009D2E4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FEED0B725BC5E43009D2E4E /* DollarTrackerTests.swift in Sources */,
+				4FEED0ED25BC653B009D2E4E /* AppDelegateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,12 +498,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DollarTracker/DollarTracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DollarTracker/SupportingFiles/DollarTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = DollarTracker/Info.plist;
+				INFOPLIST_FILE = DollarTracker/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -442,12 +519,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DollarTracker/DollarTracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DollarTracker/SupportingFiles/DollarTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = DollarTracker/Info.plist;
+				INFOPLIST_FILE = DollarTracker/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -463,6 +540,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
@@ -475,6 +553,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = serdarturan.DollarTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DollarTracker.app/Contents/MacOS/DollarTracker";
 			};
@@ -485,6 +564,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
