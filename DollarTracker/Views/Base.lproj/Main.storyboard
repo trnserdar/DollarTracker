@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17156"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -53,6 +54,116 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+        <!--Preferences View Controller-->
+        <scene sceneID="VBQ-5c-TVY">
+            <objects>
+                <viewController storyboardIdentifier="PreferencesViewController" id="Lew-8c-V6v" customClass="PreferencesViewController" customModule="DollarTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="qLu-Op-D5H">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="120"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="PcQ-5k-lnp">
+                                <rect key="frame" x="14" y="84" width="121" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="1dX-23-EUg"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Api Key:" id="HAc-lP-EEb">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="d6c-lb-Lki">
+                                <rect key="frame" x="14" y="52" width="121" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Selected Currency:" id="ZPH-xP-l0R">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4tg-sR-wla">
+                                <rect key="frame" x="14" y="20" width="121" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Display Mode:" id="D6m-nk-2qZ">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Qfj-Ds-dFO">
+                                <rect key="frame" x="149" y="84" width="285" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="rna-6g-3to"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="2yu-ua-IlB">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4aF-w4-pK3">
+                                <rect key="frame" x="147" y="47" width="290" height="25"/>
+                                <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="Opg-ff-wGk">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="yPC-LS-SgL"/>
+                                </popUpButtonCell>
+                                <connections>
+                                    <action selector="currencyMenuSelected:" target="Lew-8c-V6v" id="ECb-2b-fdE"/>
+                                </connections>
+                            </popUpButton>
+                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hZM-sJ-DM3">
+                                <rect key="frame" x="147" y="15" width="290" height="25"/>
+                                <popUpButtonCell key="cell" type="push" title="One dollar value to selected currency" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="L7I-Yi-7qZ" id="a6A-qb-Jm6">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="vK0-lZ-4Vl">
+                                        <items>
+                                            <menuItem title="One dollar value to selected currency" state="on" id="L7I-Yi-7qZ">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="One selected currency value to dollar" tag="1" id="kTd-n7-ScI">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="PcQ-5k-lnp" firstAttribute="top" secondItem="qLu-Op-D5H" secondAttribute="top" constant="16" id="1m6-oc-XrC"/>
+                            <constraint firstItem="Qfj-Ds-dFO" firstAttribute="centerY" secondItem="PcQ-5k-lnp" secondAttribute="centerY" id="4qD-t9-98F"/>
+                            <constraint firstItem="4aF-w4-pK3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="d6c-lb-Lki" secondAttribute="trailing" constant="8" symbolic="YES" id="6x9-3L-v9k"/>
+                            <constraint firstItem="hZM-sJ-DM3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4tg-sR-wla" secondAttribute="trailing" constant="8" symbolic="YES" id="8dc-hC-Utz"/>
+                            <constraint firstItem="d6c-lb-Lki" firstAttribute="height" secondItem="PcQ-5k-lnp" secondAttribute="height" multiplier="0.8" id="AK7-ng-HJe"/>
+                            <constraint firstItem="PcQ-5k-lnp" firstAttribute="leading" secondItem="qLu-Op-D5H" secondAttribute="leading" constant="16" id="LeI-QO-BKJ"/>
+                            <constraint firstItem="hZM-sJ-DM3" firstAttribute="leading" secondItem="4aF-w4-pK3" secondAttribute="leading" id="M6l-kq-jJd"/>
+                            <constraint firstItem="PcQ-5k-lnp" firstAttribute="width" secondItem="d6c-lb-Lki" secondAttribute="width" id="SRo-US-Cee"/>
+                            <constraint firstItem="4tg-sR-wla" firstAttribute="height" secondItem="PcQ-5k-lnp" secondAttribute="height" multiplier="0.8" id="Stx-RK-eeC"/>
+                            <constraint firstAttribute="bottom" secondItem="4tg-sR-wla" secondAttribute="bottom" constant="20" symbolic="YES" id="Vtp-Z2-8bL"/>
+                            <constraint firstItem="4tg-sR-wla" firstAttribute="top" secondItem="d6c-lb-Lki" secondAttribute="bottom" constant="16" id="X1P-tB-mVt"/>
+                            <constraint firstItem="4tg-sR-wla" firstAttribute="width" secondItem="d6c-lb-Lki" secondAttribute="width" id="YUp-eV-xas"/>
+                            <constraint firstItem="4aF-w4-pK3" firstAttribute="centerY" secondItem="d6c-lb-Lki" secondAttribute="centerY" id="YsZ-XE-NeQ"/>
+                            <constraint firstItem="hZM-sJ-DM3" firstAttribute="centerY" secondItem="4tg-sR-wla" secondAttribute="centerY" id="cgw-gA-hbx"/>
+                            <constraint firstItem="hZM-sJ-DM3" firstAttribute="trailing" secondItem="4aF-w4-pK3" secondAttribute="trailing" id="gkC-27-w6R"/>
+                            <constraint firstAttribute="trailing" secondItem="Qfj-Ds-dFO" secondAttribute="trailing" constant="16" id="iV7-pi-aIV"/>
+                            <constraint firstItem="d6c-lb-Lki" firstAttribute="leading" secondItem="PcQ-5k-lnp" secondAttribute="leading" id="llc-Sh-nDR"/>
+                            <constraint firstItem="Qfj-Ds-dFO" firstAttribute="leading" secondItem="PcQ-5k-lnp" secondAttribute="trailing" constant="16" id="obW-tx-qh2"/>
+                            <constraint firstItem="4aF-w4-pK3" firstAttribute="leading" secondItem="Qfj-Ds-dFO" secondAttribute="leading" id="qln-iW-19h"/>
+                            <constraint firstItem="d6c-lb-Lki" firstAttribute="top" secondItem="PcQ-5k-lnp" secondAttribute="bottom" constant="16" id="s3T-2V-7Fr"/>
+                            <constraint firstItem="4aF-w4-pK3" firstAttribute="trailing" secondItem="Qfj-Ds-dFO" secondAttribute="trailing" id="x6O-vf-TP0"/>
+                            <constraint firstItem="4tg-sR-wla" firstAttribute="leading" secondItem="d6c-lb-Lki" secondAttribute="leading" id="zfi-mz-jRP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="apiKeyTextField" destination="Qfj-Ds-dFO" id="TzS-Vt-h33"/>
+                        <outlet property="currencyMenu" destination="4aF-w4-pK3" id="IUW-Cq-Efc"/>
+                        <outlet property="displayModeMenu" destination="hZM-sJ-DM3" id="PP9-u4-NoM"/>
+                    </connections>
+                </viewController>
+                <customObject id="Fh6-nU-cS7" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44" y="327"/>
         </scene>
     </scenes>
 </document>

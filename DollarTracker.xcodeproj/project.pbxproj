@@ -12,6 +12,17 @@
 		4FEED0AB25BC5E43009D2E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEED0A925BC5E43009D2E4E /* Main.storyboard */; };
 		4FEED0C225BC5E43009D2E4E /* DollarTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0C125BC5E43009D2E4E /* DollarTrackerUITests.swift */; };
 		4FEED0ED25BC653B009D2E4E /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0EC25BC653B009D2E4E /* AppDelegateTests.swift */; };
+		4FEED0F225BD807C009D2E4E /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0F125BD807C009D2E4E /* PreferencesViewController.swift */; };
+		4FEED0F825BD94FA009D2E4E /* LocaleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0F725BD94FA009D2E4E /* LocaleManager.swift */; };
+		4FEED0FD25BDBDE0009D2E4E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED0FC25BDBDE0009D2E4E /* NetworkManager.swift */; };
+		4FEED10325BEE0F4009D2E4E /* LocaleManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED10225BEE0F4009D2E4E /* LocaleManagerTests.swift */; };
+		4FEED10B25BEE178009D2E4E /* FakeUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED10A25BEE178009D2E4E /* FakeUserDefaults.swift */; };
+		4FEED11025BEF064009D2E4E /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED10F25BEF064009D2E4E /* MockURLSession.swift */; };
+		4FEED11525BEF301009D2E4E /* MockURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED11425BEF301009D2E4E /* MockURLSessionDataTask.swift */; };
+		4FEED11A25BEF374009D2E4E /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED11925BEF374009D2E4E /* NetworkManagerTests.swift */; };
+		4FEED11F25BEFD60009D2E4E /* PreferencesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED11E25BEFD60009D2E4E /* PreferencesViewControllerTests.swift */; };
+		4FEED12425BEFEE9009D2E4E /* MockLocaleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED12325BEFEE9009D2E4E /* MockLocaleManager.swift */; };
+		4FEED12925BF02A2009D2E4E /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED12825BF02A2009D2E4E /* MockNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		4FEED0C125BC5E43009D2E4E /* DollarTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarTrackerUITests.swift; sourceTree = "<group>"; };
 		4FEED0C325BC5E43009D2E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FEED0EC25BC653B009D2E4E /* AppDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
+		4FEED0F125BD807C009D2E4E /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		4FEED0F725BD94FA009D2E4E /* LocaleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleManager.swift; sourceTree = "<group>"; };
+		4FEED0FC25BDBDE0009D2E4E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4FEED10225BEE0F4009D2E4E /* LocaleManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleManagerTests.swift; sourceTree = "<group>"; };
+		4FEED10A25BEE178009D2E4E /* FakeUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeUserDefaults.swift; sourceTree = "<group>"; };
+		4FEED10F25BEF064009D2E4E /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		4FEED11425BEF301009D2E4E /* MockURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionDataTask.swift; sourceTree = "<group>"; };
+		4FEED11925BEF374009D2E4E /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		4FEED11E25BEFD60009D2E4E /* PreferencesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewControllerTests.swift; sourceTree = "<group>"; };
+		4FEED12325BEFEE9009D2E4E /* MockLocaleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocaleManager.swift; sourceTree = "<group>"; };
+		4FEED12825BF02A2009D2E4E /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +155,7 @@
 		4FEED0D325BC5FCC009D2E4E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4FEED0F125BD807C009D2E4E /* PreferencesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -140,6 +163,7 @@
 		4FEED0D725BC5FE6009D2E4E /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				4FEED0F625BD94ED009D2E4E /* Manager */,
 				4FEED0A725BC5E43009D2E4E /* Assets.xcassets */,
 				4FEED0AD25BC5E43009D2E4E /* DollarTracker.entitlements */,
 				4FEED0AC25BC5E43009D2E4E /* Info.plist */,
@@ -168,6 +192,10 @@
 		4FEED0E325BC6064009D2E4E /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				4FEED10F25BEF064009D2E4E /* MockURLSession.swift */,
+				4FEED11425BEF301009D2E4E /* MockURLSessionDataTask.swift */,
+				4FEED12325BEFEE9009D2E4E /* MockLocaleManager.swift */,
+				4FEED12825BF02A2009D2E4E /* MockNetworkManager.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -175,6 +203,7 @@
 		4FEED0E525BC608A009D2E4E /* Fakes */ = {
 			isa = PBXGroup;
 			children = (
+				4FEED10A25BEE178009D2E4E /* FakeUserDefaults.swift */,
 			);
 			path = Fakes;
 			sourceTree = "<group>";
@@ -182,6 +211,7 @@
 		4FEED0E625BC60B2009D2E4E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4FEED11E25BEFD60009D2E4E /* PreferencesViewControllerTests.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -189,6 +219,7 @@
 		4FEED0E725BC60BC009D2E4E /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				4FEED10125BEE0E5009D2E4E /* Manager */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -199,6 +230,24 @@
 				4FEED0EC25BC653B009D2E4E /* AppDelegateTests.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		4FEED0F625BD94ED009D2E4E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED0F725BD94FA009D2E4E /* LocaleManager.swift */,
+				4FEED0FC25BDBDE0009D2E4E /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4FEED10125BEE0E5009D2E4E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4FEED10225BEE0F4009D2E4E /* LocaleManagerTests.swift */,
+				4FEED11925BEF374009D2E4E /* NetworkManagerTests.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +380,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEED0FD25BDBDE0009D2E4E /* NetworkManager.swift in Sources */,
+				4FEED0F825BD94FA009D2E4E /* LocaleManager.swift in Sources */,
 				4FEED0A425BC5E41009D2E4E /* AppDelegate.swift in Sources */,
+				4FEED0F225BD807C009D2E4E /* PreferencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +391,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEED11F25BEFD60009D2E4E /* PreferencesViewControllerTests.swift in Sources */,
+				4FEED11A25BEF374009D2E4E /* NetworkManagerTests.swift in Sources */,
+				4FEED11025BEF064009D2E4E /* MockURLSession.swift in Sources */,
+				4FEED12925BF02A2009D2E4E /* MockNetworkManager.swift in Sources */,
+				4FEED11525BEF301009D2E4E /* MockURLSessionDataTask.swift in Sources */,
 				4FEED0ED25BC653B009D2E4E /* AppDelegateTests.swift in Sources */,
+				4FEED10B25BEE178009D2E4E /* FakeUserDefaults.swift in Sources */,
+				4FEED10325BEE0F4009D2E4E /* LocaleManagerTests.swift in Sources */,
+				4FEED12425BEFEE9009D2E4E /* MockLocaleManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
