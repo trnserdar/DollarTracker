@@ -23,6 +23,7 @@
 		4FEED11F25BEFD60009D2E4E /* PreferencesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED11E25BEFD60009D2E4E /* PreferencesViewControllerTests.swift */; };
 		4FEED12425BEFEE9009D2E4E /* MockLocaleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED12325BEFEE9009D2E4E /* MockLocaleManager.swift */; };
 		4FEED12925BF02A2009D2E4E /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEED12825BF02A2009D2E4E /* MockNetworkManager.swift */; };
+		4FF404A725BFFBC40005A8AE /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF404A625BFFBC40005A8AE /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		4FEED11E25BEFD60009D2E4E /* PreferencesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewControllerTests.swift; sourceTree = "<group>"; };
 		4FEED12325BEFEE9009D2E4E /* MockLocaleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocaleManager.swift; sourceTree = "<group>"; };
 		4FEED12825BF02A2009D2E4E /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		4FF404A625BFFBC40005A8AE /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				4FEED0F125BD807C009D2E4E /* PreferencesViewController.swift */,
+				4FF404A625BFFBC40005A8AE /* AboutViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				4FEED0FD25BDBDE0009D2E4E /* NetworkManager.swift in Sources */,
 				4FEED0F825BD94FA009D2E4E /* LocaleManager.swift in Sources */,
 				4FEED0A425BC5E41009D2E4E /* AppDelegate.swift in Sources */,
+				4FF404A725BFFBC40005A8AE /* AboutViewController.swift in Sources */,
 				4FEED0F225BD807C009D2E4E /* PreferencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

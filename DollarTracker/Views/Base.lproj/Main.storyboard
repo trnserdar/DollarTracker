@@ -163,7 +163,62 @@
                 </viewController>
                 <customObject id="Fh6-nU-cS7" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44" y="327"/>
+            <point key="canvasLocation" x="80" y="142"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="lOS-qW-Xuk">
+            <objects>
+                <viewController storyboardIdentifier="AboutViewController" id="GD7-n5-00n" customClass="AboutViewController" customModule="DollarTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="1y8-ld-D1P">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="120"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ALb-Kq-UEB">
+                                <rect key="frame" x="158" y="80" width="135" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="XKR-2U-72Y"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Dollar Tracker" id="74f-wQ-dtz">
+                                    <font key="font" metaFont="systemBold" size="20"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ijt-GM-RaF">
+                                <rect key="frame" x="155" y="48" width="140" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="mSi-lN-zPo"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="by Serdar Turan" id="r9q-kW-Psg">
+                                    <font key="font" metaFont="system" size="20"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mZO-oO-uWs">
+                                <rect key="frame" x="123" y="9" width="205" height="32"/>
+                                <buttonCell key="cell" type="push" title="powered by Open Exchange Rates" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="m4g-N8-iiy">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system" size="10"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="poweredByButtonTapped:" target="GD7-n5-00n" id="ntd-ET-hdS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mZO-oO-uWs" secondAttribute="bottom" constant="16" id="2cd-jy-hhh"/>
+                            <constraint firstItem="ALb-Kq-UEB" firstAttribute="top" secondItem="1y8-ld-D1P" secondAttribute="top" constant="16" id="9om-N5-OU4"/>
+                            <constraint firstItem="ALb-Kq-UEB" firstAttribute="centerX" secondItem="1y8-ld-D1P" secondAttribute="centerX" id="B2O-4N-QHj"/>
+                            <constraint firstItem="Ijt-GM-RaF" firstAttribute="centerX" secondItem="1y8-ld-D1P" secondAttribute="centerX" id="BSE-hf-h6D"/>
+                            <constraint firstItem="Ijt-GM-RaF" firstAttribute="top" secondItem="ALb-Kq-UEB" secondAttribute="bottom" constant="8" id="GHk-SP-eat"/>
+                            <constraint firstItem="mZO-oO-uWs" firstAttribute="centerX" secondItem="1y8-ld-D1P" secondAttribute="centerX" id="sgJ-yU-N60"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="Ml6-f7-jKN" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80" y="325"/>
         </scene>
     </scenes>
 </document>

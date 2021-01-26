@@ -46,6 +46,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @IBAction func showAbout(_ sender: NSMenuItem) {
         
+        guard let aboutViewController = storyboard.instantiateController(withIdentifier: AboutViewController.storyboardId) as? AboutViewController,
+              statusItem?.button != nil else {
+            return
+        }
+        
+        let popoverView = NSPopover()
+        popoverView.contentViewController = aboutViewController
+        popoverView.behavior = .transient
+        popoverView.show(relativeTo: statusItem!.button!.bounds, of: statusItem!.button!, preferredEdge: .maxY)
     }
     
     @IBAction func showPreferences(_ sender: NSMenuItem) {
